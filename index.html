@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+	<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#071512">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+
+	<title>Mihajlo Ničin | Creative Designer & Web Developer</title>
+	<meta name="description" content="Portfolio Mihajla Ničina - Creative Designer, Software & Web Developer. Web razvoj, programiranje, SQL, C# aplikacije i digitalni dizajn.">
+
+</head>
+<body data-page="home">
+	<div class="page-loader" id="pageLoader">
+		<img src="logo.png" alt="Mihajlo Ničin logo">
+		<span>Mihajlo Ničin</span>
+	</div>
+
+	<div class="cursor-glow" id="cursorGlow"></div>
+	<header class="site-header" id="siteHeader">
+	<nav class="navbar">
+		<a href="index.html" class="brand">
+			<img src="logo.png" alt="Mihajlo Ničin logo">
+			<span>Mihajlo Ničin</span>
+		</a>
+
+		<button class="menu-toggle" id="menuToggle" aria-label="Otvori meni" aria-expanded="false">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+
+		<div class="nav-links" id="navLinks">
+			<a href="index.html" data-page="home">Početna</a>
+			<a href="about.html" data-page="about">O meni</a>
+			<a href="skills.html" data-page="skills">Veštine</a>
+			<a href="projects.html" data-page="projects">Projekti</a>
+			<a href="contact.html" data-page="contact">Kontakt</a>
+			<a class="nav-social" href="https://www.linkedin.com/in/mihajlo-ni%C4%8Din-757780382/" target="_blank" rel="noreferrer">LinkedIn</a>
+			<a class="nav-social" href="https://github.com/necenzurisani" target="_blank" rel="noreferrer">GitHub</a>
+			<button class="theme-toggle" id="themeToggle" type="button" aria-label="Promeni temu">
+				<span class="theme-icon">☾</span>
+				<span class="theme-text">Dark</span>
+			</button>
+		</div>
+	</nav>
+</header>
+
+	<main>
+		<section class="hero section">
+			<div class="hero-content reveal">
+				<p class="eyebrow">Creative Designer | Software & Web Developer</p>
+				<h1>Dobrodošli u moj digitalni portfolio.</h1>
+
+				<div class="hero-actions">
+					<a href="projects.html" class="btn primary magnetic">Pogledaj projekte</a>
+					<a href="contact.html" class="btn secondary magnetic">Kontaktiraj me</a></div>
+
+				<div class="social-row">
+					<a href="https://www.linkedin.com/in/mihajlo-ni%C4%8Din-757780382/" target="_blank" rel="noreferrer">in LinkedIn</a>
+					<a href="https://github.com/necenzurisani" target="_blank" rel="noreferrer">⌘ GitHub</a>
+					<a href="mailto:mihajlonichin@gmail.com">✉ Email</a>
+				</div>
+
+				<div class="hero-stats">
+					<div class="tilt-card"><strong>Web</strong><span>HTML, CSS, JavaScript</span></div>
+					<div class="tilt-card"><strong>Code</strong><span>C++, C#, Python, SQL</span></div>
+					<div class="tilt-card"><strong>Design</strong><span>Adobe Premiere, Photoshop, Illustrator</span></div>
+				</div>
+			</div>
+
+			<div class="hero-visual reveal delay-1">
+				<div class="orb orb-one"></div>
+				<div class="orb orb-two"></div>
+				<div class="hero-card tilt-card">
+					<img src="logo.png" alt="Mihajlo Ničin logo" class="hero-logo">
+					<h2>Mihajlo Ničin</h2>
+					<p>Kruševac, Srbija</p>
+					<div class="tech-tags">
+						<span>C++</span><span>C#</span><span>Python</span><span>SQL</span>
+						<span>HTML</span><span>CSS</span><span>JavaScript</span><span>Adobe</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class="section-heading reveal">
+				<p class="eyebrow">Profesionalni profil</p>
+				<h2>Spoj tehničkog znanja, kreativnog dizajna i jasne komunikacije.</h2>
+				<p>
+					Usmeren sam na razvoj kvalitetnih digitalnih proizvoda: od strukture i logike, preko korisničkog interfejsa,
+					do finalnog vizuelnog utiska.
+				</p>
+			</div>
+
+			<div class="feature-grid">
+				<a href="about.html" class="feature-card reveal tilt-card">
+					<span>01</span>
+					<h3>Profil i obrazovanje</h3>
+					<p>Informatički smer Gimnazije Kruševac, fokus na matematiku, algoritme, programiranje i praktične projekte.</p>
+				</a>
+
+				<a href="skills.html" class="feature-card reveal delay-1 tilt-card">
+					<span>02</span>
+					<h3>Tehničke veštine</h3>
+					<p>C++, C#, Python, MATLAB, SQL, HTML, CSS i JavaScript, uz razumevanje OOP-a i struktura podataka.</p>
+				</a>
+
+				<a href="projects.html" class="feature-card reveal delay-2 tilt-card">
+					<span>03</span>
+					<h3>Projekti</h3>
+					<p>Portfolio Website, Project Manager Website, Restoranski Website, SQL projekat i C# Windows Forms aplikacije.</p>
+				</a>
+
+				<a href="contact.html" class="feature-card reveal tilt-card">
+					<span>04</span>
+					<h3>Saradnja</h3>
+					<p>Otvoren sam za praksu, freelance projekte, web sajtove, frontend dorade, dizajn i digitalni sadržaj.</p>
+				</a>
+			</div>
+		</section>
+		</main>
+
+	<button class="back-to-top" id="backToTop" aria-label="Vrati se na vrh">↑</button>
+
+<footer class="footer">
+	<div class="footer-links">
+		<a href="https://www.linkedin.com/in/mihajlo-ni%C4%8Din-757780382/" target="_blank" rel="noreferrer">LinkedIn</a>
+		<a href="https://github.com/necenzurisani" target="_blank" rel="noreferrer">GitHub</a>
+		<a href="mailto:mihajlonichin@gmail.com">Email</a>
+	</div>
+	<p>© 2026 Mihajlo Ničin. Creative Designer | Software & Web Developer.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
